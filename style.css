@@ -68,14 +68,14 @@
   }
 
   .panel-grey{
-    background: transparent;
+    background: transparent !important;
   }
 
 .slot-wrapper{
-    background-color: transparent;
+    background-color: transparent !important;
 }
 .slot-content{
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .panel-grey button{

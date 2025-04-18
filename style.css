@@ -15,8 +15,8 @@
     background-size: cover;
 }
 
-.button-icons2.button-extra-big2.button-grey-pale{
-    min-height: 160px;
+.button-icons2.button-extra-big2.button-grey-pale:has([id^="newgame"]){
+    min-height: 100px;
 }
 
 .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) {
@@ -27,6 +27,7 @@
     justify-content: space-between;
     padding: 15px !important;
     border: 1px solid #bc3535;
+    min-height: 160px;
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]):hover {

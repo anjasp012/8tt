@@ -97,6 +97,7 @@
 }
 .panel-grey:first-of-type{
     display: flex !important;
+    gap: 4px;
 }
 #semua, #minigame, #togelall, #slot, #arcade{
     margin-left: 0px !important;

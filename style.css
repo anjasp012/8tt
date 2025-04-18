@@ -4,53 +4,42 @@
 }
 
 .button-icons2.button-extra-big2.button-grey-pale {
-    background: rgba(255, 255, 255, 0.05); /* transparan */
-    backdrop-filter: blur(15px); /* efek blur kaca */
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(145deg, #8b0000, #b22222); /* gradasi merah */
     border-radius: 20px;
-    box-shadow:
-      0 4px 30px rgba(0, 0, 0, 0.4),
-      0 0 10px rgba(255, 0, 0, 0.3); /* glow merah */
-    padding: 20px 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
     text-align: center;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:hover {
     transform: scale(1.03);
-    box-shadow:
-      0 6px 40px rgba(0, 0, 0, 0.5),
-      0 0 20px rgba(255, 0, 0, 0.4); /* hover glow */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4), 0 0 15px rgba(255, 0, 0, 0.4);
   }
 
-  /* Judul pasar */
   .nama-pasar {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     letter-spacing: 1px;
   }
 
-  /* Angka keluaran */
   .angka-keluar {
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 32px;
+    font-weight: 800;
     color: #FFD700; /* emas */
-    text-shadow: 0 0 10px #FFD70088;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
-  /* Timer */
   #loadtimerm17 {
     color: #00FFAA !important;
-    font-size: 20px;
-    font-family: 'Courier New', monospace;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 6px 12px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #00FFAA44;
-    display: inline-block;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px 10px;
+    border-radius: 8px;
   }
 
 

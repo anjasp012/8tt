@@ -3,6 +3,12 @@
     box-shadow: none;
 }
 
+.wrapper{
+    background-image: url('https://cdn-ptthoki.sgp1.cdn.digitaloceanspaces.com/BACKGROUND&PROMOSIMOBILE/8/latar.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 .button-icons2.button-extra-big2.button-grey-pale {
     background: linear-gradient(145deg, #8b0000, #b22222); /* gradasi merah */
     border-radius: 20px;

@@ -2,7 +2,7 @@
     background-color: #af0507;
 }
 #semua{
-    margin-left: 0px;
+    margin-left: 0px !important;
 }
 #carigame{
     display: block;

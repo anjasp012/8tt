@@ -29,14 +29,14 @@
     transform: scale(1.01);
   }
 
-  .nama-pasar {
+  .button-icons2.button-extra-big2.button-grey-pale .nama-pasar {
     font-size: 18px;
     font-weight: 700;
     color: white;
     letter-spacing: 1px;
   }
 
-  .angka-keluar {
+  .button-icons2.button-extra-big2.button-grey-pale .angka-keluar {
     font-size: 32px !important;
     font-weight: 800;
     color: #fdcc29 !important; /* emas */

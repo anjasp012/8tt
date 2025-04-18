@@ -25,7 +25,7 @@
   }
 
   .angka-keluar {
-    font-size: 32px;
+    font-size: 32px !important;
     font-weight: 800;
     color: #FFD700; /* emas */
   }

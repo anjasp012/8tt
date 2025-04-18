@@ -13,7 +13,7 @@
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4), 0 0 15px rgba(255, 0, 0, 0.4);
   }
 

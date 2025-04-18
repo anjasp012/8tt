@@ -34,6 +34,7 @@
     font-weight: 700;
     color: white;
     letter-spacing: 1px;
+    padding: 0px;
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) .angka-keluar {

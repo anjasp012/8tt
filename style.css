@@ -69,7 +69,13 @@
 
 
 .panel-grey button{
-    background-color: #af0507 !important;
+    background-color: transparent;
+}
+.slot-wrapper{
+    background-color: transparent;
+}
+.slot-content{
+    background-color: transparent;
 }
 #semua{
     margin-left: 0px !important;

@@ -9,6 +9,12 @@
     background-size: cover;
 }
 
+.container.main.no-bottom{
+    background-image: url('https://cdn-ptthoki.sgp1.cdn.digitaloceanspaces.com/BACKGROUND&PROMOSIMOBILE/8/mblback.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 .button-icons2.button-extra-big2.button-grey-pale {
     background: linear-gradient(145deg, #8b0000, #b22222); /* gradasi merah */
     border-radius: 20px;

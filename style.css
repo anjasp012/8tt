@@ -7,10 +7,9 @@
     background: linear-gradient(145deg, #8b0000, #b22222); /* gradasi merah */
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.2);
-    padding: 20px;
-    color: white;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:hover {
@@ -22,7 +21,6 @@
     font-size: 18px;
     font-weight: 700;
     color: white;
-    margin-bottom: 8px;
     letter-spacing: 1px;
   }
 
@@ -30,14 +28,12 @@
     font-size: 32px;
     font-weight: 800;
     color: #FFD700; /* emas */
-    margin-bottom: 10px;
   }
 
   #loadtimerm17 {
     color: #00FFAA !important;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(0, 0, 0, 0.2);
     padding: 4px 10px;
     border-radius: 8px;
   }

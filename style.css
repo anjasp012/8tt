@@ -67,15 +67,19 @@
     letter-spacing: -1px;
   }
 
+  .panel-grey{
+    background: transparent;
+  }
 
-.panel-grey button{
-    background-color: transparent;
-}
 .slot-wrapper{
     background-color: transparent;
 }
 .slot-content{
     background-color: transparent;
+}
+
+.panel-grey button{
+    background-color: #af0507 !important;
 }
 #semua{
     margin-left: 0px !important;

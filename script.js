@@ -1,3 +1,3 @@
-document.querySelectorAll('.panel-grey').forEach(el => {
-    console.log(el);
+document.querySelectorAll('.page-grey').forEach(el => {
+    el.classList.add('oke');
 });

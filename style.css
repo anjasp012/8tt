@@ -85,7 +85,6 @@
 }
 
 .inner-wrap{
-
     background-color: transparent !important;
 }
 .inner-wrap .ha1{
@@ -98,10 +97,11 @@
 .panel-grey:first-of-type{
     display: flex !important;
     gap: 4px;
+    flex-wrap: wrap;
 }
 #semua, #minigame, #togelall, #slot, #arcade{
     margin-left: 0px !important;
-    width: 100% !important;
+    width: 20% !important;
 }
 #carigame{
     flex-basis: 100%;

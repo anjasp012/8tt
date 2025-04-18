@@ -82,6 +82,9 @@
 
     background-color: transparent !important;
 }
+.inner-wrap .ha1{
+    color: white;
+}
 
 .panel-grey button{
     background-color: #af0507 !important;

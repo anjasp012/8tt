@@ -15,6 +15,10 @@
     background-size: cover;
 }
 
+.button-icons2.button-extra-big2.button-grey-pale{
+    min-height: 160px;
+}
+
 .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) {
     background: linear-gradient(145deg, #8b0000, #b22222); /* gradasi merah */
     border-radius: 20px;
@@ -23,7 +27,6 @@
     justify-content: space-between;
     padding: 15px !important;
     border: 1px solid #bc3535;
-    min-height: 160px;
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]):hover {

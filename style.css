@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px !important;
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:hover {
@@ -43,11 +43,11 @@
 
   .button-icons2.button-extra-big2.button-grey-pale b font{
     color: #00FFAA !important;
-    font-size: 30px !important;
+    font-size: 20px !important;
     font-family: 'Courier New', Courier, monospace !important;
     height: unset !important;
     margin: 0px !important;
-    letter-spacing: -3.5px;
+    letter-spacing: -3px;
   }
 
 

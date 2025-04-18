@@ -1,0 +1,102 @@
+.buttonWrap.buttonlc2.button-orange{
+    background-color: #af0507;
+    box-shadow: none;
+}
+
+.wrapper{
+    background-image: url('https://cdn-ptthoki.sgp1.cdn.digitaloceanspaces.com/BACKGROUND&PROMOSIMOBILE/8/latar.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container.main.no-bottom{
+    background-image: url('https://cdn-ptthoki.sgp1.cdn.digitaloceanspaces.com/BACKGROUND&PROMOSIMOBILE/8/mblback.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) {
+    background: linear-gradient(145deg, #8b0000, #b22222); /* gradasi merah */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px !important;
+    border: 1px solid #bc3535;
+  }
+
+  .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]):hover {
+    transform: scale(1.01);
+  }
+
+  .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) .nama-pasar {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) .angka-keluar {
+    font-size: 32px !important;
+    font-weight: 800;
+    color: #fdcc29 !important; /* emas */
+    border: 1px solid #8d0303;
+  background-color: #8e0303;
+  border-radius: 10px;
+  padding: 2px;
+  }
+
+  .button-icons2 div{
+    min-height: unset !important;
+  }
+
+  .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) b {
+    color: #00FFAA !important;
+    font-size: 20px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    height: unset !important;
+    margin: 0px !important;
+  }
+
+  .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) b font{
+    color: #00FFAA !important;
+    font-size: 20px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    height: unset !important;
+    margin: 0px !important;
+    letter-spacing: -1px;
+  }
+
+  .panel-grey{
+    background: transparent !important;
+  }
+
+.slot-wrapper{
+    background-color: transparent !important;
+}
+.slot-content{
+    background-color: transparent !important;
+}
+
+.inner-wrap{
+
+    background-color: transparent !important;
+}
+.inner-wrap .ha1{
+    color: white;
+}
+
+.panel-grey button{
+    background-color: #af0507 !important;
+}
+#semua{
+    margin-left: 0px !important;
+}
+#carigame{
+    margin-top: 4px;
+    display: block;
+    width: 100% !important;
+}
+.test-dong{
+    margin: 100px;
+}

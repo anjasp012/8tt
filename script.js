@@ -1,1 +1,3 @@
-$('.panel-grey').addClass('oke');
+document.querySelectorAll('.panel-grey').forEach(function (el) {
+    el.classList.add('oke');
+});

@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 15px !important;
+    border: 1px solid #bc3535;
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:hover {

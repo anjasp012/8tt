@@ -95,7 +95,7 @@
 .panel-grey button{
     background-color: #af0507 !important;
 }
-#semua & #minigame & #togelall & #slot & #arcade{
+#semua, #minigame, #togelall, #slot, #arcade{
     margin-left: 0px !important;
     width: 20% !important;
 }

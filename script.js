@@ -1,4 +1,3 @@
-document.getElementsByClassName('.panel-grey').forEach(function (el) {
+document.querySelectorAll('.panel-grey').forEach(el => {
     console.log(el);
 });
-console.log('anjas');

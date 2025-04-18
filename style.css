@@ -3,9 +3,46 @@
     box-shadow: none;
 }
 
-.button-icons2{
-    background-color: #af0507 !important;
-}
+.button-icons2 {
+    background: linear-gradient(145deg, #8b0000, #b22222); /* gradasi merah */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .button-icons2:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4), 0 0 15px rgba(255, 0, 0, 0.4);
+  }
+
+  .nama-pasar {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  .angka-keluar {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FFD700; /* emas */
+    margin-bottom: 10px;
+  }
+
+  #loadtimerm17 {
+    color: #00FFAA !important;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4px 10px;
+    border-radius: 8px;
+  }
+
+
 .panel-grey button{
     background-color: #af0507 !important;
 }

@@ -1,0 +1,1 @@
+$('.panel-grey').addClass('oke');

@@ -35,6 +35,15 @@
     font-size: 30px !important;
     font-family: 'Courier New', Courier, monospace !important;
     height: inherit !important;
+    margin: 0px !important;
+  }
+
+  .button-icons2.button-extra-big2.button-grey-pale b font{
+    color: #00FFAA !important;
+    font-size: 30px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    height: inherit !important;
+    margin: 0px !important;
   }
 
 

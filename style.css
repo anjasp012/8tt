@@ -7,7 +7,7 @@
 #carigame{
     margin-top: 4px;
     display: block;
-    width: 100%;
+    width: 100% !important;
 }
 .test-dong{
     margin: 100px;

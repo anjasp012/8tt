@@ -34,7 +34,7 @@
     color: #00FFAA !important;
     font-size: 30px !important;
     font-family: 'Courier New', Courier, monospace !important;
-    height: 0px !important;
+    height: inherit !important;
   }
 
 

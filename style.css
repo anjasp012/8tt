@@ -34,7 +34,7 @@
   .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"])::after {
     position: absolute;
   content: '';
-  width: 150%;
+  width: 200%;
   height: 8px;
   top: 50%;
   left: 50%;
@@ -80,7 +80,7 @@
   .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) .angka-keluar::after {
     position: absolute;
     content: '';
-    width: 150%;
+    width: 200%;
     height: 4px;
     top: 50%;
     left: 50%;

@@ -29,7 +29,6 @@
     padding: 15px !important;
     border: 1px solid #bc3535;
     min-height: 160px;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
   }
 
   .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]):hover {
@@ -52,6 +51,16 @@
   background-color: #8e0303;
   border-radius: 10px;
   padding: 5px;
+  animation: shineAnim 3s infinite;
+  }
+
+  @keyframes shineAnim {
+    0% {
+      transform: translate(-100%, -100%) rotate(25deg);
+    }
+    100% {
+      transform: translate(100%, 100%) rotate(25deg);
+    }
   }
 
   .button-icons2 div{

@@ -121,6 +121,6 @@
     color: white;;
 }
 .btn.btn-theme{
-    background-color: #8e0303;
-    box-shadow: inset 0 -3px 0 #8b0000;
+    background-color: #8e0303 !important;
+    box-shadow: inset 0 -3px 0 #8b0000 !important;
 }

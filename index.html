@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RTP Slot</title>
+  <style>
+    body {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .icon-box {
+      width: 130px;
+      height: 130px;
+      background: linear-gradient(145deg, #eee, #ccc);
+      border: 4px solid red;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .slot {
+      background-color: darkred;
+      border-radius: 8px;
+      padding: 8px;
+      display: flex;
+      gap: 4px;
+    }
+
+    .slot span {
+      background-color: white;
+      color: red;
+      padding: 4px 6px;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 4px;
+      animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .text {
+      font-size: 16px;
+      font-weight: bold;
+      color: red;
+      text-shadow: 1px 1px #fff;
+      position: relative;
+      z-index: 1;
+    }
+
+    .shine {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        120deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.4) 50%,
+        transparent 100%
+      );
+      transform: rotate(0deg);
+      animation: shineAnim 3s infinite;
+    }
+
+    @keyframes shineAnim {
+      0% {
+        transform: translate(-100%, -100%) rotate(25deg);
+      }
+      100% {
+        transform: translate(100%, 100%) rotate(25deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="icon-box">
+    <div class="shine"></div>
+    <div class="slot">
+      <span>7</span>
+      <span>7</span>
+      <span>7</span>
+    </div>
+    <div class="text">RTP SLOT</div>
+  </div>
+</body>
+</html>

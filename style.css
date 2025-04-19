@@ -29,7 +29,12 @@
     padding: 15px !important;
     border: 1px solid #bc3535;
     min-height: 160px;
+    position: relative;
   }
+  .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"])::after {
+    background-color: white;
+  }
+
 
   .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]):hover {
     transform: scale(1.01);

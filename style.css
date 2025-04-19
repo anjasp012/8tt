@@ -124,3 +124,23 @@
     background-color: #8e0303 !important;
     box-shadow: inset 0 -3px 0 #8b0000 !important;
 }
+
+  .menu-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .menu-item {
+    padding: 10px;
+    border: 1px solid #555;
+    box-shadow: inset rgb(0 0 0) 1px 0px 5px 0px;
+  }
+
+  .menu-item img {
+    width: 100px;
+    height: auto;
+  }

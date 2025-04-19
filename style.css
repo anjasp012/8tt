@@ -42,10 +42,10 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.21), 0 0 30px rgba(255, 255, 255, 0);
   backdrop-filter: blur(1px);
   background-color: rgba(255, 255, 255, 0.13);
-  animation: lintang 3s infinite ease-in-out;
+  animation: lintang1 3s infinite ease-in-out;
   }
 
-  @keyframes lintang {
+  @keyframes lintang1 {
     0%, 100% { transform: translate(-110%, -50%) rotate(45deg); }
     50% { transform: translate(10%, -50%) rotate(45deg); }
   }
@@ -70,10 +70,30 @@
     font-weight: 800;
     color: #fdcc29 !important; /* emas */
     border: 1px solid #8d0303;
-  background-color: #8e0303;
-  border-radius: 10px;
-  padding: 5px;
-  animation: blink 1s infinite;
+    background-color: #8e0303;
+    border-radius: 10px;
+    padding: 5px;
+    animation: blink 1s infinite;
+    position: relative;
+    z-index: 9;
+  }
+  .button-icons2.button-extra-big2.button-grey-pale:not([id^="newgame"]) .angka-keluar::after {
+    position: absolute;
+    content: '';
+    width: 150%;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.21), 0 0 30px rgba(255, 255, 255, 0);
+    backdrop-filter: blur(1px);
+    background-color: rgba(255, 255, 255, 0.13);
+    animation: lintang2 2s infinite ease-in-out;
+  }
+
+  @keyframes lintang2 {
+    0%, 100% { transform: translate(10%, -50%) rotate(45deg); }
+    50% { transform: translate(-110%, -50%) rotate(45deg); }
   }
 
   @keyframes blink {
